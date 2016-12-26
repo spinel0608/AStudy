@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main activity -->
+    <string name="title_addressbook">스터디원 추가/제거</string>
+    <string name="title_gps">GPS 보기</string>
+    <string name="title_dictionary">사전 설정하기</string>
+</resources>

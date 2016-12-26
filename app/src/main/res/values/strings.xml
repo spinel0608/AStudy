@@ -2,4 +2,9 @@
     <string name="app_name">AStudy</string>
     <!-- Do not translate this 'a' : symbolic word-->
     <string name="symbolic_a" translatable="false">A</string>
+
+    <!-- main activity -->
+    <string name="title_addressbook">add/find studypeople</string>
+    <string name="title_gps">view gps</string>
+    <string name="title_dictionary">set dictionary</string>
 </resources>

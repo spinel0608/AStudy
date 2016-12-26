@@ -1,11 +1,25 @@
 package com.samsung.astudy;
 
-/**
- * Created by Song on 2016-12-20.
- */
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 
-public class Intro {
-    //테스트
-    //테스트2
-    //테스트3
+public class Intro extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.splash_layout);
+
+        Handler handler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                super.handleMessage(msg);
+                finish();
+            }
+        };
+
+        handler.sendEmptyMessageDelayed(0, 5000);
+    }
 }

@@ -8,6 +8,13 @@ public class PersonData {
     private long longitude;
     private long latitude;
 
+    public PersonData(boolean mIsWoman, String mStudyName, String mName, String mTelNum) {
+        this.mStudyName = mStudyName;
+        this.mName = mName;
+        this.mTelNum = mTelNum;
+        this.mIsWoman = mIsWoman;
+    }
+
     public String getmStudyName() {
         return mStudyName;
     }

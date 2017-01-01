@@ -9,4 +9,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="RedRectangleBg">
+        <item name="android:background">@drawable/red_rectangle</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/red_rectangle_minheight</item>
+        <item name="android:textSize">@dimen/red_rectangle_text_size</item>
+    </style>
 </resources>

@@ -13,7 +13,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
 
         //Loading Image
-        startActivity(new Intent(this, Intro.class));
+        //startActivity(new Intent(this, Intro.class));
         setContentView(R.layout.activity_main);
 
         LinearLayout fisrtLayout = (LinearLayout) findViewById(R.id.first_container);

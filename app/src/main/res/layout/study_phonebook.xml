@@ -31,8 +31,9 @@
                 android:layout_height="@dimen/phonebook_header_add_btn_size"
                 android:src="@drawable/add"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentStart="true"
-                android:tint="@color/phonebook_add_icon_bgcolor" />
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="20dp" />
         </RelativeLayout>
 
     </FrameLayout>

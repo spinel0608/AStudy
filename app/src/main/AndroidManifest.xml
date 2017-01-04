@@ -20,6 +20,10 @@
         <activity
             android:name=".StudyPhoneBook"
             android:configChanges="orientation|keyboardHidden" />
+        <!--suppress AndroidDomInspection -->
+        <activity
+            android:name=".StudyPhoneBookInputDialog"
+            android:configChanges="orientation|keyboardHidden" />
     </application>
 
 </manifest>

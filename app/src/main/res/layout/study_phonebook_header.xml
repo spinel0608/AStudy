@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:clickable="false">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,7 +17,9 @@
             android:layout_height="@dimen/phonebook_header_object_size"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/back" />
+            android:src="@drawable/back"
+            android:focusable="true"
+            android:clickable="true" />
 
         <ImageView
             android:id="@+id/phonebook_next"
@@ -23,7 +27,9 @@
             android:layout_height="@dimen/phonebook_header_object_size"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/next" />
+            android:src="@drawable/next"
+            android:focusable="true"
+            android:clickable="true" />
 
         <TextView
             android:id="@+id/phonebook_study_name"

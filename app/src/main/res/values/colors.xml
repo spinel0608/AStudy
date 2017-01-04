@@ -7,4 +7,7 @@
     <!-- Common -->
     <color name="common_text_color">#c00000</color>
     <color name="common_background_color">#ffeeee</color>
+
+    <!-- PhoneBook -->
+    <color name="phonebook_add_icon_bgcolor">#ffc078</color>
 </resources>

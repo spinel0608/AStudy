@@ -24,5 +24,9 @@
     <dimen name="phonebook_header_minheight">100dp</dimen>
     <dimen name="phonebook_header_object_size">30dp</dimen>
     <dimen name="phonebook_header_add_btn_size">80dp</dimen>
+    <dimen name="phonebook_footer_add_person_size">50dp</dimen>
+
+    <!-- Dialog -->
+    <dimen name="dialog_height">500dp</dimen>
 
 </resources>

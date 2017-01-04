@@ -23,5 +23,6 @@
     <!-- PhoneBook -->
     <dimen name="phonebook_header_minheight">100dp</dimen>
     <dimen name="phonebook_header_object_size">30dp</dimen>
+    <dimen name="phonebook_header_add_btn_size">80dp</dimen>
 
 </resources>

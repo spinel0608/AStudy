@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/phonebook_list"
+
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin"
-        android:divider="@null"
-        android:dividerHeight="@dimen/red_rectangle_list_divider_padding" />
+        android:layout_height="match_parent">
 
+        <!-- no item -->
+
+        <!-- item exist-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/phonebook_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:divider="@null"
+                android:dividerHeight="@dimen/red_rectangle_list_divider_padding" />
+
+            <ImageView
+                android:id="@+id/phonebook_add_btn"
+                android:layout_width="@dimen/phonebook_header_add_btn_size"
+                android:layout_height="@dimen/phonebook_header_add_btn_size"
+                android:src="@drawable/add"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:tint="@color/phonebook_add_icon_bgcolor" />
+        </RelativeLayout>
+
+    </FrameLayout>
 </LinearLayout>

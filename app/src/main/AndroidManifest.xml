@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.samsung.astudy">
 
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/study_icon"
@@ -24,6 +31,16 @@
         <activity
             android:name=".StudyPhoneBookInputDialog"
             android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name=".FindMember"
+            android:configChanges="orientation|keyboardHidden">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyATzeMTfemHIGs3jvPa3b4Qd9f16iQtW30" />
     </application>
+
 
 </manifest>

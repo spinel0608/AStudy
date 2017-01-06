@@ -60,6 +60,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 break;
             case R.id.third_container:
+                Intent myDailyWord = new Intent(this,myDailyWord.class);
+                startActivity(myDailyWord);
                 break;
             default:
                 break;

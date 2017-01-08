@@ -33,13 +33,18 @@
             android:configChanges="orientation|keyboardHidden" />
         <activity
             android:name=".FindMember"
-            android:configChanges="orientation|keyboardHidden">
-
-        </activity>
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity
+            android:name=".myDailyWord"
+            android:configChanges="orientation|keyboardHidden"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyATzeMTfemHIGs3jvPa3b4Qd9f16iQtW30" />
+            android:value="AIzaSyATzeMTfemHIGs3jvPa3b4Qd9f16iQtW30" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 

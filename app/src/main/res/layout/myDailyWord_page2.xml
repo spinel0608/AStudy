@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영어단어 입력 페이지"/>
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputWord"
+        android:hint="스펠링 입력"/>
+    <EditText android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputMean"
+        android:hint="단어의 뜻 입력"/>
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="저장"
+        android:onClick="commitEvent"
+        android:id="@+id/saveWord"/>
+</LinearLayout>
